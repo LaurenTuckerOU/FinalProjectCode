@@ -1,4 +1,4 @@
-package GroupProject;
+package src;
 
 import java.util.*;
 
