@@ -1,6 +1,9 @@
 /*
  * PLAN & NOTES 3/25
  * 
+ * update 4/25
+ * 	need to edit to run tests 10x and get average of results
+ * 
  * RECURSION VS ITERATION baseed on research findings:
  * 
  Recursion:
@@ -247,3 +250,57 @@ public class Notes {
 	    }
 	  
 } // end notes class
+
+/*
+FAST EXPONENTIATION OUTPUT (average of running 10x in nanosecs): 
+Testing n = 5000 
+
+Recursive Time: 1120 
+
+Iterative Time: 510 
+
+ 
+
+Testing n = 10000 
+
+Recursive Time: 2880 
+
+Iterative Time: 550 
+
+ 
+
+Testing n = 30000 
+
+Recursive Time: 1160 
+
+Iterative Time: 520 
+
+ 
+
+Testing n = 50000 
+
+Recursive Time: 1160 
+
+Iterative Time: 540 
+
+ 
+
+Testing n = 70000 
+
+Recursive Time: 1080 
+
+Iterative Time: 590 
+
+ 
+
+Testing n = 100000 
+
+Recursive Time: 760 
+
+Iterative Time: 570 
+
+ 
+
+Findings: fast exponentiation recursion identical to iteration (iteration slightly faster) because algorithm is very efficient and has a much higher recursion cliff than 100,000 (next test huge values e.g. 2x10^9 ?) 
+
+ */
